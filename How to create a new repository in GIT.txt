@@ -1,0 +1,23 @@
+echo "# how_to_create_git_repository" >> README.md
+
+#step 1: Check if git is already installed.
+	# on your terminal -git --version
+
+#step 2: Download and install git
+
+#Step 3: Signup and create account on GitHub
+
+$Step 4: Add your GitHub email and username to git
+git config --global user.email ethomaas@gmail.com
+git config --global user.name edthomas1 
+
+
+#commands
+
+git init
+git status
+git add text1.txt
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/edthomas1/how_to_create_git_repository.git
+git push -u origin master
